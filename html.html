@@ -1,4 +1,48 @@
-<audio controls>
-    <source src="anthem.mp3" type="audio/mpeg">
-    Your browser does not support the audio element.
-</audio>
+<!DOCTYPE html>
+<html>
+<head>
+<!--The <style> indicates the css properties. It has to be used in the <head> element-->
+<style>
+h1 {
+  color: blue;
+  font-family: verdana;
+  font-size: 300%;
+  
+}
+</style>
+<!--The end end of <style>-->
+<!--css can also be external by using the elemnt <link>-->
+<link rel="stylesheet" href="css.css">
+<!--<link> element takes the CSS file from the local folder, and takes the css data from there and displays it. In browsers, there is usually a file path to the css needed.-->
+</link>
+</head>
+<body>
+<!--The rest is the structure parts. The website can still function without the css, so the removal of the style element wont 
+change anything except for the format of the website and how it looks-->
+<h1>Hello World. This is an example of internal css</h1>
+<p>According to all known laws
+of aviation,
+
+
+there is no way a bee
+should be able to fly.
+
+
+Its wings are too small to get
+its fat little body off the ground.
+
+
+The bee, of course, flies anyway
+
+
+because bees don't care
+what humans think is impossible.
+
+This is an example of external css
+</p>
+<p1 style="color:blue;">She sells sea shells on the sea shore. This is an example of inline css</p1>
+<!--THe last way css can be shown is Inline, for basic short text, where the style can be declared in the line-->
+</body>
+</html>
+<!--A broweser can access a website by converting the URL to an IP using a DNS, then requesting a secure connection with the server.
+The server can additionally send the CSS files as well, if the browser requests it, and the browsers job is to display these correctly.-->
